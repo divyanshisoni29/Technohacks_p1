@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #1d3557;
+    font-family: Arial, sans-serif;
+    background-image: url(bookstorebg.png) ;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    /* border: 2px solid black; */
+    width: 20%;
+    font-size: 35px;
+}
+
+main img{
+    object-fit: cover;
+}
+
+header {
+    background-color: #fff;
+    
+    text-align: center;
+    padding: 20px 0;
+    height: 40px;
+}
+
+nav ul {
+    /* border: 2px solid black; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    text-align: center;
+    margin-left: 340px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+    font-weight: bold;
+}
+.home{
+    border-bottom: 3px solid black;
+}
+
+.drpdwn{
+    border: none;
+    height: 40px;
+    width: 140px;
+    font-size: 21px;
+    color:rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+
+
+
+/* Center the login form on the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login form */
+.login-form {
+    /* border: 5px solid yellow; */
+    width: 17%;
+    height: 47%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: -7%;
+}
+
+h2 {
+    color: #333;
+}
+
+.input-group {
+    margin: 10px 0;
+    width: 90%;
+   
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005b9f;
+}
+
+.message {
+    margin-top: 10px;
+}
+
+.message a {
+    color: #007acc;
+    text-decoration: none;
+}
+footer{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 5vh;
+    background: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
